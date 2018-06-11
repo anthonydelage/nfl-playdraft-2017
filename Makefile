@@ -9,7 +9,7 @@ venv: clean
 	@source venv/bin/activate
 
 tables:
-	@python3 src/table.py
+	@python3 src/tables.py
 
 data:
 	@python3 src/data.py
